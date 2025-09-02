@@ -30,6 +30,9 @@
     border: none;
     border-radius: 5px;
 }
+.secondary-bakground{
+    background-color: #FFF8F3;
+}
 
 /* Nav styles */
 nav
@@ -90,4 +93,43 @@ nav li a{
 }
 .banner-content{
     max-width: 585px;
+}
+
+/* Main */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px 10px 0 10px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: normal;
+    color:#757575;
+    margin: 0px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0px 22.5px;
 }
