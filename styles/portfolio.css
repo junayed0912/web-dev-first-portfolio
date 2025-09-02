@@ -30,6 +30,16 @@
     border: none;
     border-radius: 5px;
 }
+.contact-btn{
+    background-color: #FFFF;
+    color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    margin-left: 30px;
+}
 .secondary-bakground{
     background-color: #FFF8F3;
 }
@@ -40,7 +50,8 @@ nav
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 51px 200px;
+    margin-left:200px;
+    margin-right:200px;
 }
 
 .nav-title{
@@ -235,4 +246,63 @@ main{
 {
     text-align: center;
     margin-top: 50px;
+}
+/* footer part */
+
+.social-media{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    margin-top: 30px;
+    width: 120px;
+}
+.title
+{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+
+}
+.left-para{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #474747;
+    max-width: 562px;
+}
+.name , .email {
+    display: block;
+    width: 461px;
+    height: 84px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.whole-div
+{
+    display: flex;
+    justify-content: center;
+    gap: 117px;
+    background-color: #FFF8F3;
+    padding-top: 243px;
+    padding-bottom: 300px;
+    margin-top: 19px;
+}
+.message{
+    width: 461px;
+    height: 180px;
+}
+.submit-btn{
+    display: block;
+    margin-top: 24px;
+}
+input::placeholder,
+textarea::placeholder{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+input ,textarea{
+    padding-left: 30px;
+    padding-top: 18px;
 }
