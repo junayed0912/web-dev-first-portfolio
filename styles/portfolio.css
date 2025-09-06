@@ -92,7 +92,7 @@ nav li a{
     font-size: 18px;
     font-weight: normal;
 }
-.banner-image
+.banner-profile-picture
 {
     width: 584px;
     height: 676px;
@@ -292,6 +292,7 @@ main{
 .message{
     width: 461px;
     height: 180px;
+    border: none;
 }
 .submit-btn{
     display: block;
@@ -305,4 +306,59 @@ textarea::placeholder{
 input ,textarea{
     padding-left: 30px;
     padding-top: 18px;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .skills-container, 
+    .resume-container, .banner {
+        flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .whole-div  {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 40px;
+    }
+    .header{
+        background-image: none;
+    }
+    nav, nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .banner-profile-picture{
+        width: 100%;
+    }
+    .about
+    {
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .name, 
+    .email, 
+    .message {
+        width: calc(100% - 40px);
+    }
+
+    .left-para {
+        max-width: 100%;
+    }
+
+    .social-media {
+        justify-content:flex-start;
+        margin: 20px 0px;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
 }
